@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 /// <summary>
 /// ターゲットブロック（ボールが当たったら壊れるブロック）を制御する
@@ -8,15 +6,6 @@ using UnityEngine;
 /// </summary>
 public class TargetBlockController : MonoBehaviour
 {
-    void Start()
-    {
-
-    }
-
-    void Update()
-    {
-
-    }
 
     /// <summary>
     /// Collider に衝突判定があった時に呼ばれる
