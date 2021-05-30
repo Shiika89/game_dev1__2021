@@ -194,6 +194,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBlockPrefab (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2211978199721250892, guid: 24a3cce63b26d1149bb261ee613b41fd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24a3cce63b26d1149bb261ee613b41fd, type: 3}
 --- !u!4 &171891651 stripped
@@ -269,6 +274,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBlockPrefab (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4415939030536933661, guid: dd47557b39abd6340b4867195ea619af,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd47557b39abd6340b4867195ea619af, type: 3}
 --- !u!1001 &295826263
@@ -337,6 +347,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RedBlockPrefab (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211978199721250892, guid: 24a3cce63b26d1149bb261ee613b41fd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24a3cce63b26d1149bb261ee613b41fd, type: 3}
@@ -502,7 +517,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388034188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.95, z: 0}
+  m_LocalPosition: {x: 0, y: 0.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -543,6 +558,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_powerDirection: {x: 1, y: 1}
   m_powerScale: 5
+  m_coin2: {fileID: 8300000, guid: 97217a54b6cd3904582e4c0101b08d61, type: 3}
 --- !u!58 &388034193
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -802,6 +818,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BlueBlockPrefab (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4415939030536933661, guid: dd47557b39abd6340b4867195ea619af,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd47557b39abd6340b4867195ea619af, type: 3}
@@ -1289,6 +1310,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBlockPrefab (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2211978199721250892, guid: 24a3cce63b26d1149bb261ee613b41fd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24a3cce63b26d1149bb261ee613b41fd, type: 3}
 --- !u!4 &976418006 stripped
@@ -1363,6 +1389,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RedBlockPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211978199721250892, guid: 24a3cce63b26d1149bb261ee613b41fd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24a3cce63b26d1149bb261ee613b41fd, type: 3}
@@ -1451,6 +1482,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBlockPrefab (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4415939030536933661, guid: dd47557b39abd6340b4867195ea619af,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd47557b39abd6340b4867195ea619af, type: 3}
 --- !u!1001 &1394516294
@@ -1519,6 +1555,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: RedBlockPrefab (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211978199721250892, guid: 24a3cce63b26d1149bb261ee613b41fd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24a3cce63b26d1149bb261ee613b41fd, type: 3}
@@ -1589,6 +1630,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBlockPrefab (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4415939030536933661, guid: dd47557b39abd6340b4867195ea619af,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd47557b39abd6340b4867195ea619af, type: 3}
 --- !u!1001 &1654355033
@@ -1657,6 +1703,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: BlueBlockPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 4415939030536933661, guid: dd47557b39abd6340b4867195ea619af,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd47557b39abd6340b4867195ea619af, type: 3}
@@ -1973,6 +2024,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBlockPrefab (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2211978199721250892, guid: 24a3cce63b26d1149bb261ee613b41fd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2211978199721250894, guid: 24a3cce63b26d1149bb261ee613b41fd,
         type: 3}
       propertyPath: m_Sprite
@@ -2004,7 +2060,8 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 0.64
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3450180946840093457, guid: 24a3cce63b26d1149bb261ee613b41fd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 24a3cce63b26d1149bb261ee613b41fd, type: 3}
 --- !u!4 &1922103838 stripped
 Transform:
@@ -2091,6 +2148,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlueBlockPrefab (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4415939030536933661, guid: dd47557b39abd6340b4867195ea619af,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd47557b39abd6340b4867195ea619af, type: 3}
 --- !u!4 &1987741053 stripped
@@ -2166,6 +2228,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBlockPrefab (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2211978199721250892, guid: 24a3cce63b26d1149bb261ee613b41fd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24a3cce63b26d1149bb261ee613b41fd, type: 3}
 --- !u!1001 &2118249828
@@ -2240,6 +2307,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBlockPrefab (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2211978199721250892, guid: 24a3cce63b26d1149bb261ee613b41fd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2211978199721250894, guid: 24a3cce63b26d1149bb261ee613b41fd,
         type: 3}
       propertyPath: m_Sprite
@@ -2271,7 +2343,8 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 0.64
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3450180946840093457, guid: 24a3cce63b26d1149bb261ee613b41fd, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 24a3cce63b26d1149bb261ee613b41fd, type: 3}
 --- !u!4 &2118249829 stripped
 Transform:
