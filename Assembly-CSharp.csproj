@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\PaddleController.cs" />
     <Compile Include="Assets\Scripts\TargetBlockController.cs" />
     <None Include="Assets\Prefabs\Readme.txt" />
+    <None Include="Assets\Sounds\LICENSE.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -622,6 +623,9 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Unity/Game_Dev1_2021/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:/Unity/Game_Dev1_2021/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
