@@ -65,7 +65,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BallController.cs" />
+    <Compile Include="Assets\Scripts\ExerciseController.cs" />
     <Compile Include="Assets\Scripts\PaddleController.cs" />
+    <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Compile Include="Assets\Scripts\TargetBlockController.cs" />
     <None Include="Assets\Prefabs\Readme.txt" />
     <None Include="Assets\Sounds\LICENSE.txt" />

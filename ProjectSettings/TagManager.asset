@@ -6,6 +6,7 @@ TagManager:
   tags:
   - BallTag
   - BlueBlock
+  - ActionWallTag
   layers:
   - Default
   - TransparentFX
