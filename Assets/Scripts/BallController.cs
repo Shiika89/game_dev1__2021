@@ -12,7 +12,6 @@ public class BallController : MonoBehaviour
     [SerializeField] Vector2 m_powerDirection = Vector2.up + Vector2.right;
     /// <summary>ボールを最初に動かす力の大きさ</summary>
     [SerializeField] float m_powerScale = 5f;
-    [SerializeField] AudioClip m_coin2;
     Rigidbody2D m_rb2d;
 
     void Start()
@@ -56,9 +55,9 @@ public class BallController : MonoBehaviour
     {
         // OnCollisionEnter2D と同じの処理をする
         AudioSource audio = this.gameObject.GetComponent<AudioSource>();
-        if (collision.gameObject.tag == "BlueBlock")
+        if (audio != null)
         {
-            audio.PlayOneShot(m_coin2);
+            audio.Play();
         }
     }
 }
