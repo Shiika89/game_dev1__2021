@@ -43,4 +43,6 @@ public class ExerciseController : MonoBehaviour
             sr.color = Color.white;
         }
     }
+
+
 }
